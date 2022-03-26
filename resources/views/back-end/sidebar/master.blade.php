@@ -105,19 +105,19 @@
 {{--                    <span class="nav-text">Widget</span>--}}
 {{--                </a>--}}
 {{--            </li>--}}
-{{--            <li>--}}
-{{--                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">--}}
-{{--                    <i class="flaticon-381-notepad"></i>--}}
-{{--                    <span class="nav-text">Forms</span>--}}
-{{--                </a>--}}
-{{--                <ul aria-expanded="false">--}}
-{{--                    <li><a href="./form-element.html">Form Elements</a></li>--}}
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-381-notepad"></i>
+                    <span class="nav-text">Forms</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{route('usercreate')}}">Thêm mới người dùng</a></li>
 {{--                    <li><a href="./form-wizard.html">Wizard</a></li>--}}
 {{--                    <li><a href="./form-editor-summernote.html">Summernote</a></li>--}}
 {{--                    <li><a href="form-pickers.html">Pickers</a></li>--}}
 {{--                    <li><a href="form-validation-jquery.html">Jquery Validate</a></li>--}}
-{{--                </ul>--}}
-{{--            </li>--}}
+                </ul>
+            </li>
 {{--            <li>--}}
 {{--                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">--}}
 {{--                    <i class="flaticon-381-network"></i>--}}

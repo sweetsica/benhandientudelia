@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 //Chức năng
-    //Login
+    //Logingit
     Route::get('/login',function (){
         return view('back-end.user.login');
     })->name('userlogin');
@@ -34,3 +34,7 @@ Route::get('/', function () {
     Route::get('/user-detail',function (){
         return view('back-end.user.detail');
     })->name('userdetail');
+    //Trang thêm mới khách hàng
+    Route::get('/user-create',function (){
+        return view('back-end.user.create');
+    })->name('usercreate');
