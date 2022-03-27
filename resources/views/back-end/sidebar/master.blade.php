@@ -112,6 +112,7 @@
                 </a>
                 <ul aria-expanded="false">
                     <li><a href="{{route('usercreate')}}">Thêm mới người dùng</a></li>
+                    <li><a href="{{route('userprofile')}}">Album người dùng</a></li>
 {{--                    <li><a href="./form-wizard.html">Wizard</a></li>--}}
 {{--                    <li><a href="./form-editor-summernote.html">Summernote</a></li>--}}
 {{--                    <li><a href="form-pickers.html">Pickers</a></li>--}}
