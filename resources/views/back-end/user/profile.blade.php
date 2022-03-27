@@ -1,4 +1,12 @@
 @extends('back-end.master.master')
+@section('content-header')
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('asset-content/images/favicon.png')}}">
+    <link href="{{asset('asset-content/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
+    <link href="{{asset('asset-content/vendor/lightgallery/css/lightgallery.min.css')}}" rel="stylesheet">
+    <link href="{{asset('asset-content/css/style.css')}}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+@endsection
 @section('content-body')
     <!--**********************************
             Content body start
@@ -380,5 +388,15 @@
 @endsection
 @section('content-footer')
     <!-- Dashboard 1 -->
-    <script src="{{asset('asset-content/js/dashboard/patient-details.js')}}"></script>
+    <!-- Required vendors -->
+    <script src="{{asset('asset-content/vendor/global/global.min.js')}}"></script>
+    <script src="{{asset('asset-content/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
+    <script src="{{asset('asset-content/js/custom.min.js')}}"></script>
+    <script src="{{asset('asset-content/js/deznav-init.js')}}"></script>
+    <script src="{{asset('asset-content/vendor/lightgallery/js/lightgallery-all.min.js')}}"></script>
+    <script>
+        $('#lightgallery').lightGallery({
+            thumbnail:true,
+        });
+    </script>
 @endsection
