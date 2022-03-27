@@ -38,3 +38,9 @@ Route::get('/', function () {
     Route::get('/user-create',function (){
         return view('back-end.user.create');
     })->name('usercreate');
+
+//Trang demo chức năng
+    //Slide ảnh khách hàng
+Route::get('/user-profile',function (){
+    return view('back-end.user.profile');
+})->name('userprofile');

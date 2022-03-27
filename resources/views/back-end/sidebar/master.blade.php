@@ -15,7 +15,7 @@
                 </ul>
             </li>
 {{--            Đóng mở menu--}}
-            <div>
+
 {{--            <li>--}}
 {{--                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">--}}
 {{--                    <i class="flaticon-381-television"></i>--}}
@@ -148,7 +148,7 @@
 {{--                    <li><a href="./page-lock-screen.html">Lock Screen</a></li>--}}
                 </ul>
             </li>
-            </div>
+
         </ul>
 
         <div class="copyright">
